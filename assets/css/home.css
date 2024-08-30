@@ -1,0 +1,237 @@
+*{
+    background-color: #fff;
+    font-family: "Sen", sans-serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: weight; */
+    /* font-style: normal;     */
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#logo{
+    height: 200px;
+    width: 300px;
+}
+nav{
+    margin: 30px;
+    margin-left: 30%;
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: #AAEBFF;
+    height: 14px;
+    font-weight: 800;
+    padding: 10px 20px 20px 20px;
+    
+}
+a:hover{
+    background-color: #FFD550;
+    color: #fff;
+    border-radius: 10px;
+    height: 14px;
+    padding: 10px 20px 20px 20px;
+}
+.container{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+}
+
+/* Section 1 */
+#section1{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.div_texte{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+    /* background-color: royalblue; */
+}
+.texte1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.div_texte2{
+    background-color: #AAEBFF;
+    height: 60px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.link_texte2{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #FFD550;
+    color: #fff;
+    border-radius: 10px;
+    height: 14px;
+    padding: 10px 20px 20px 20px;
+    
+}
+
+.texte2{
+    color: black;  
+    margin-top: 10px; 
+    background-color: #AAEBFF; 
+    padding: 15px 0 0 0 ;
+    font-size: 18px;
+}
+
+
+.image_texte{
+    width: 47%;
+}
+.image_apprentissage{
+    height: 300px;
+    width: 300px;
+}
+.image_apprentissage{
+    height: 300px;
+    width: 600px;   
+}
+
+/* Section 2 */
+#section2{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.div_section2{
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 200px 150px 200px;
+}
+.titre{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* Section 3 */
+#section3{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin-top: 10%; */
+}
+.details{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFD550;
+}
+.cgu_link{
+    width:30px;
+}
+
+/* Section 4 */
+#section4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+}
+#div_section4{
+    margin: 0 auto;
+    background-color: #AAEBFF;
+    padding: 50px;
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 100px ;
+
+}
+.texte_div_section4{
+    display: none;
+    width: 500px;
+    background-color: #AAEBFF;
+    margin-top: 20px;
+}
+.texte_div_section4
+#btnHidden1, #btnHidden2, #btnHidden3{
+    width: 80px;
+    border-radius: 50%;
+    background-color: #AAEBFF;
+    margin-left: 75%;
+}
+img{
+    background-color: transparent;
+}
+.titre_div_section4{
+    width: 500px;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+/* Section 5 */
+#section5{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll ;
+}
+.div_section5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.texte_div_section5{
+    background-color: #FFD550;
+    height: 250px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr; */
+    gap: 20px;
+}
+.texte1_div_section5, .texte2_div_section5{
+    background-color: transparent;
+}
+#btnDivSection5{
+    height: 45px;
+    width: 120px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #AAEBFF;
+    font-weight: 800;
+}
+#link_section5{
+    display: flex;
+    margin-left: 80%;
+    flex-direction: row;
+}
+#link_section5:hover{
+    background-color: #fff;
+    color: #AAEBFF;
+
+}
+.image_link_section5{
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
