@@ -12,6 +12,8 @@
 header{
     display: flex;
     flex-wrap: nowrap;
+    height: 130px;
+    border-bottom: 1px solid #FFD550;
 }
 a{
     text-decoration: none;
@@ -22,7 +24,8 @@ a{
 }
 #logo{
     height: 200px;
-    width: 300px;
+    width: 200px;
+    background-color: transparent;
 }
 nav{
     margin: 30px;
@@ -162,7 +165,6 @@ nav{
     background-color: #AAEBFF;
     padding: 50px;
     width: 80%;
-    height: 80px;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: grid;
@@ -170,11 +172,22 @@ nav{
     grid-template-rows: 80px 100px ;
 
 }
-.texte_div_section4{
-    display: none;
-    width: 500px;
-    background-color: #AAEBFF;
+.divSection4Hidden{
+    height: 100px;
+}
+.divSection4Displaye{
+    height: 200px;
+}
+#text1DivSection4, #text2DivSection4, #text3DivSection4{
+    background-color: transparent;
     margin-top: 20px;
+
+}
+.hidden{
+    display: none;
+}
+.display{
+    display: block;
 }
 
 #btnHidden1, #btnHidden2, #btnHidden3{
@@ -231,7 +244,7 @@ img{
     flex-direction: column;
     gap: 10px;
 }
-#btnDivSection5{
+#btn1DivSection5, #btn2DivSection5, #btn3DivSection5{
     height: 45px;
     width: 120px;
     padding: 10px 20px;
@@ -240,9 +253,9 @@ img{
     background-color: #AAEBFF;
     font-weight: 800;
 }
-#texte3_div_section5{
+/* #texte3_div_section5{
     display: none;
-}
+} */
 #link_section5{
     display: flex;
     margin-left: 80%;
@@ -375,6 +388,9 @@ form{
     padding: 30px;
     border: 1px solid black;
     border-radius: 20px;
+    color: black; 
+    font-weight: 800;
+    font-size: 25px;
 }
 .advice_section7::placeholder{
     color: black; 

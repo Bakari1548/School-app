@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Connexion</title>
     <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <a href="/assets/html/home.html"><img src="/images/logo_libscode.png" alt="LibsCode Technologies" id="logo"></a>
         <nav>
-
+            <a href="/assets/html/allcours.html" class="nav_link">Cours</a>
+            <a href="/assets/html/events.html" class="nav_link">Evenements</a>
+            <a href="/assets/html/cgu.html" class="nav_link">CGU</a>
+            <a href="/assets/html/login.html" class="nav_link">Connexion</a>
+            <a href="/assets/html/register.html" class="nav_link">Inscription</a>
         </nav>
     </header>
     <main>
-
+        <div class="container">
+            <h1>Connexion</h1>
+            <form action="#">
+                <input type="email" name="email" id="email" placeholder="Entrer votre email">
+                <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+                <div class="div_text_form">
+                    <a href="#"><p class="text_form1">Mot de passe oublié ?</p></a>
+                    <a href="/assets/html/register.html"><p class="text_form2">Creer un compte</p></a>
+                </div>
+                <div class="button">
+                    <button id="connect">Connexion</button>
+                    <button id="annuler">Annuler</button>
+                </div>
+                </form>
+        </div>    
     </main>
 
-    <script src="/assets/js/login.js"></script>
+    <script src="/assets/js/register.js"></script>
 </body>
 </html>

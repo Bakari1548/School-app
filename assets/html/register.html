@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription</title>
+    <link rel="stylesheet" href="/assets/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <a href="/assets/html/home.html"><img src="/images/logo_libscode.png" alt="LibsCode Technologies" id="logo"></a>
+        <nav>
+            <a href="/assets/html/allcours.html" class="nav_link">Cours</a>
+            <a href="/assets/html/events.html" class="nav_link">Evenements</a>
+            <a href="/assets/html/cgu.html" class="nav_link">CGU</a>
+            <a href="/assets/html/login.html" class="nav_link">Connexion</a>
+            <a href="/assets/html/register.html" class="nav_link">Inscription</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Inscription</h1>
+            <form action="#">
+                <input type="text" name="name" placeholder="Entrer votre nom complet">
+                <input type="email" name="email" id="email" placeholder="Entrer votre email">
+                <input type="password" name="password" id="password" placeholder="Créez un mot de passe">
+                <input type="password" name="password" placeholder="Confirmer le mot de passe">
+                <button>S'inscrire</button>
+            </form>
+        </div>    
+    </main>
+
+    <script src="/assets/js/register.js"></script>
 </body>
 </html>
