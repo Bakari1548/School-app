@@ -23,8 +23,17 @@ text3DivSection4.setAttribute("class", "hidden");
 
 btnHidden1.addEventListener('click', () => {
     imageBtnHidden1.setAttribute("src", "/images/display.png");
+    if(text1DivSection4.style.display === "block"){
+    text1DivSection4.classList.remove("display");
+    text1DivSection4.classList.add("hidden");
+    console.log("Oui");
+    }else{
     text1DivSection4.classList.remove("hidden");
     text1DivSection4.classList.add("display");
+    console.log("Non");
+    }
+    // text1DivSection4.classList.remove("hidden");
+    // text1DivSection4.classList.add("display");
 });
 
 btnHidden2.addEventListener('click', () => {
@@ -56,9 +65,8 @@ text2DivSection5.setAttribute("class", "hidden");
 text3DivSection5.setAttribute("class", "hidden");
 
 btn1DivSection5.addEventListener('click', () => {
-    text1DivSection5.classList.remove("hidden");
-    text1DivSection5.classList.add("display");    
-})
+        
+});
 btn2DivSection5.addEventListener('click', () => {
     text2DivSection5.classList.remove("hidden");
     text2DivSection5.classList.add("display");    

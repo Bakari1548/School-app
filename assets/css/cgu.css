@@ -1,0 +1,105 @@
+
+*{
+    background-color: #fff;
+    font-family: "Sen", sans-serif;
+    margin: 0;
+    padding: 0
+}
+/* Header */
+
+header{
+    background-color: #AAEBFF;
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid  #FFD550;
+}
+a{
+    text-decoration: none;
+    height: 14px;
+    font-weight: 800;
+    padding: 10px 20px 20px 20px;
+}
+.link_logo{
+    background-color: transparent;
+}
+#logo2{
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0;
+}
+nav{
+    margin: 30px;
+    margin-left: 43%;
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+}
+.nav_link{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    height: 14px;
+    font-weight: 800;
+    padding: 10px 20px 20px 20px;
+    
+}
+.nav_link:hover{
+    background-color: black;
+    color: #fff;
+    border: 2px solid #FFD550;
+    border-radius: 10px;
+    height: 14px;
+    font-weight: 800;
+    padding: 10px 20px 20px 20px;
+}
+
+/* Section 1 */
+#section1{
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 50px;
+    background-color: #FFD550;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    background-color: transparent;
+    margin: auto 0px auto 55px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.image_section1{
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    margin: auto 90px;
+}
+
+.hidden{
+    display: none;
+}
+.display{
+    display: block;
+}
+
+/* Section 2 */
+#section2{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+h2{
+    font-weight: 800;
+}
+
+#div1Section2, #div2Section2, #div3Section2{
+    width: 70%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
