@@ -186,7 +186,7 @@ nav{
 #text1DivSection4, #text2DivSection4, #text3DivSection4{
     background-color: transparent;
     width: 60%;
-
+    visibility: visible;
 }
 .hidden{
     display: none;

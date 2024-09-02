@@ -23,26 +23,36 @@ text3DivSection4.setAttribute("class", "hidden");
 
 btnHidden1.addEventListener('click', () => {
     imageBtnHidden1.setAttribute("src", "/images/display.png");
-    if(text1DivSection4.style.display === "block"){
-    text1DivSection4.classList.remove("display");
-    text1DivSection4.classList.add("hidden");
+    if(text1DivSection4.style.visibility === 'visible'){
+    // text1DivSection4.classList.remove("display");
+    // text1DivSection4.classList.add("hidden");
     console.log("Oui");
     }else{
-    text1DivSection4.classList.remove("hidden");
-    text1DivSection4.classList.add("display");
-    console.log("Non");
-    }
     // text1DivSection4.classList.remove("hidden");
     // text1DivSection4.classList.add("display");
+    console.log("Non");
+    };
+    text1DivSection4.classList.remove("hidden");
+    text1DivSection4.classList.add("display");
 });
 
 btnHidden2.addEventListener('click', () => {
     imageBtnHidden2.setAttribute("src", "/images/display.png");
+    if(text2DivSection4.style.visibility === 'visible'){
+        console.log("Oui");
+        }else{
+        console.log("Non");
+        };
     text2DivSection4.classList.remove("hidden");
     text2DivSection4.classList.add("display");
 });
 
 btnHidden3.addEventListener('click', () => {
+    if(text3DivSection4.style.visibility === 'visible'){
+        console.log("Oui");
+        }else{
+        console.log("Non");
+        };
     imageBtnHidden3.setAttribute("src", "/images/display.png");
     text3DivSection4.classList.remove("hidden");
     text3DivSection4.classList.add("display");
