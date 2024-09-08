@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription Evenement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/inscriptionevent.css">
+    <script src="/assets/js/inscriptionevent.js" defer></script>
 </head>
 <body>
-    
+  <header>
+    <nav><a href="/assets/html/home.html"><img src="/images/logo2.png" alt="Cours en ligne"></a></nav>
+  </header> 
+   <main>
+        <div class="container">
+            <section id="section1">
+                <img src="/images/image-incription-event.png" alt="">
+            </section>
+            <section id="section2">
+                <div class="attention">
+                    <img src="/images/icone-attention.png" alt="attentio"> 
+                    <p class="incription_gratuite"></p>Inscription gratuite</p>
+                </div>
+                <p class="obligatoire">*Obligatoire</p>
+                <form action="#">
+                    <div id="inputData">
+                        <input type="text" required placeholder="Prénom*">
+                        <input type="text" required placeholder="Nom*">
+                        <input type="email" required name="email" id="emailInput" placeholder="Email*">
+                        <input type="tel" required placeholder="Téléphone*">
+                    </div>
+                    <div id="inputAdvice">
+                        <input type="text" required id="advice" placeholder="Vos attentes*">
+                        <button id="btnInscriptionEvent">S'inscrire</button>
+                    </div>
+                </form>
+                <div class="description">
+                    <h1 class="titreDescription">Description <span>à partir de 12h  </span></h1>
+                    <p class="texteDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Mollitia eaque veniam architecto. Lorem ipsum dolor sit amet consectetur 
+                         adipisicing elit. Mollitia eaque veniam architecto.</p>
+                </div>
+            </section>
+        </div>
+   </main>
 </body>
 </html>

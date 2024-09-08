@@ -1,0 +1,125 @@
+*{
+    background-color: #fff;
+    font-family: "Sen", sans-serif;
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: #F3F3F3;
+
+}
+
+/* Header */
+nav a img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 100px;
+}
+
+main{
+    padding: 50px 0;
+    /* background-color: royalblue; */
+}
+.container{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ /* Section */
+
+
+/* Section 1 */
+#section1{
+    background-color: transparent;
+}
+#section1 img{
+    background-color: transparent;
+}
+
+/* Section 2 */
+.attention{
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    border-left: 2px solid rgb(139, 48, 48);
+    padding: 0 0 0 20px ;
+    font-size: 10px;
+    font-weight: 800;
+}
+.attention img{
+    width: 21px;
+    height: 16px;
+}
+.incription_gratuite{
+    /* margin-left: 65%; */
+    display: flex;
+    flex-direction: row;
+   
+}
+.obligatoire{
+    background-color: transparent;
+    margin-top: 10%;
+    color: rgba(177, 2, 2, 0.911);
+    font-size: 20px;
+}
+#section2{
+    background-color: transparent;
+    padding: 30px;
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+form{
+    width: 70%;
+    background-color: transparent ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#inputData{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+form input{
+    padding: 15px;
+    border-radius: 15px;
+}
+#inputAdvice{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#inputAdvice button{
+    width: 120px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFD550;
+}
+.description{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.description h1 span{
+    border: none;
+    border-left: 1px solid black;
+    padding: 0 0 0 15px ;
+    margin: 0 0 0 40px;
+    font-weight: normal;
+    font-size: 20px;
+}

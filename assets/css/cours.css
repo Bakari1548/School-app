@@ -60,16 +60,149 @@ nav{
 }
 
 /* Section 1 */
-#section1{
-    margin: 0 auto 100px auto;
-    display: flex;
-    /* flex-direction: column; */
-    width: 100%;
-}
-.background_image{
-    width: 100%;
+.section1{
+    background-image: url(/images/background_cours.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
     height: 500px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imageSection1{
+    background-color: transparent;
 }
 .image_cours{
     background-color: transparent;
+    width: 500px;
+    height: 500px;
+}
+.textSection1{
+    background-color: transparent;
+    width: 600px;
+    margin: 100px;
+}
+.titreSection1, .texteSection1{
+    background-color: transparent;
+    color: #FFD550;
+    font-weight: 800;
+    margin: 50px;
+}
+.titreSection1{
+    font-size: 50px;
+}
+.texteSection1{
+    font-size: 30px;
+}
+
+/* Section 2 */
+#section2{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+}
+/* Aside */
+aside{
+    height: 140vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.div1AsideSection2{
+    background-color: transparent;
+    margin: 10% 50px 0px 50px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titreAsideSection2, .texteAsideSection2{
+    background-color: transparent;
+}
+.titreAsideSection2{
+    font-weight: 800;
+}
+.texteAsideSection2{
+    color: black;
+    
+}
+.div2AsideSection2{
+    margin: 0px 50px;
+    padding: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    gap: 20px;
+}
+.imageDiv2AsideSection2{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.imageDiv2AsideSection2 img{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+}
+form{
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+form input{
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+form button{
+    padding: 10px;
+    width: 80px;
+    background-color: #FFD550;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-left: 60%;
+}
+form button::placeholder{
+    color: black;
+}
+
+
+ /* DivSection2 */
+.divSection2{
+    margin-left: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.divSection2 p{
+    background-color: transparent;
+    font-size: 20px;
+}
+.divSection2 p span{
+    background-color: transparent;
+}
+.divSection2 h1{
+    background-color: transparent;
+    color: #FFD550;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.divSection2 img{
+    width: 300px;
+    height: 200px;
 }
