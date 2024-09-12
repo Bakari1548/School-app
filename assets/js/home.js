@@ -19,56 +19,56 @@ let text3DivSection4 = document.getElementById('text3DivSection4');
 
 // Affichage et masquage des elements
 
-if(text1DivSection4.style.visibility === 'hidden'){
-    text1DivSection4.style.visibility = 'visible'
+if(text1DivSection4.style.display === 'none'){
+    text1DivSection4.style.display = 'block'
     imageBtnHidden1.setAttribute("src", "/images/display.png")
 }else{
-    text1DivSection4.style.visibility = 'hidden'
+    text1DivSection4.style.display = 'none'
     imageBtnHidden1.setAttribute("src", "/images/hidden.png")
 };
 btnHidden1.addEventListener('click', () => {
     // imageBtnHidden1.setAttribute("src", "/images/display.png");
-    if(text1DivSection4.style.visibility === 'hidden'){
-        text1DivSection4.style.visibility = 'visible'
+    if(text1DivSection4.style.display === 'none'){
+        text1DivSection4.style.display = 'block'
         imageBtnHidden1.setAttribute("src", "/images/display.png")
     }else{
-        text1DivSection4.style.visibility = 'hidden'
+        text1DivSection4.style.display = 'none'
         imageBtnHidden1.setAttribute("src", "/images/hidden.png")
     };
 });
 
-if(text2DivSection4.style.visibility === 'hidden'){
-    text2DivSection4.style.visibility = 'visible'
+if(text2DivSection4.style.display === 'none'){
+    text2DivSection4.style.display = 'block'
     imageBtnHidden2.setAttribute("src", "/images/display.png")
 }else{
-    text2DivSection4.style.visibility = 'hidden'
+    text2DivSection4.style.display = 'none'
     imageBtnHidden2.setAttribute("src", "/images/hidden.png")
 };
 btnHidden2.addEventListener('click', () => {
     // imageBtnHidden1.setAttribute("src", "/images/display.png");
-    if(text2DivSection4.style.visibility === 'hidden'){
-        text2DivSection4.style.visibility = 'visible'
+    if(text2DivSection4.style.display === 'none'){
+        text2DivSection4.style.display = 'block'
         imageBtnHidden2.setAttribute("src", "/images/display.png")
     }else{
-        text2DivSection4.style.visibility = 'hidden'
+        text2DivSection4.style.display = 'none'
         imageBtnHidden2.setAttribute("src", "/images/hidden.png")
     };
 });
 
-if(text3DivSection4.style.visibility === 'hidden'){
-    text3DivSection4.style.visibility = 'visible'
+if(text3DivSection4.style.display === 'none'){
+    text3DivSection4.style.display = 'block'
     imageBtnHidden3.setAttribute("src", "/images/display.png")
 }else{
-    text3DivSection4.style.visibility = 'hidden'
+    text3DivSection4.style.display = 'none'
     imageBtnHidden3.setAttribute("src", "/images/hidden.png")
 };
 btnHidden3.addEventListener('click', () => {
     // imageBtnHidden1.setAttribute("src", "/images/display.png");
-    if(text3DivSection4.style.visibility === 'hidden'){
-        text3DivSection4.style.visibility = 'visible'
+    if(text3DivSection4.style.display === 'none'){
+        text3DivSection4.style.display = 'block'
         imageBtnHidden3.setAttribute("src", "/images/display.png")
     }else{
-        text3DivSection4.style.visibility = 'hidden'
+        text3DivSection4.style.display = 'none'
         imageBtnHidden3.setAttribute("src", "/images/hidden.png")
     };
 });
@@ -127,7 +127,7 @@ let eventContent = document.getElementById("section5")
 
 events.map((event, index) =>  {
     let carteEvent = document.createElement("div");
-    carteEvent.classList.add("div_section5")
+    carteEvent.classList.add(`div${index+1}_section5`)
     // let textEvent = document.createElement("div");
     // textEvent.classList.add("texte_div_section5")
     let btn = document.createElement("button")

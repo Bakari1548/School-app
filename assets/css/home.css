@@ -1,12 +1,15 @@
 *{
     background-color: #fff;
     font-family: "Sen", sans-serif;
-    /* font-optical-sizing: auto; */
-    /* font-weight: weight; */
-    /* font-style: normal;     */
     margin: 0;
     padding: 0;
 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
 }
 /* Header */
 header{
@@ -156,15 +159,16 @@ nav{
 /* Section 4 */
 #section4{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr; */
     gap: 80px;
 }
 .div_section4{
-    /* height: 200px; */
     margin: 0 auto;
     background-color: #AAEBFF;
     padding: 20px;
+    /* height: 100px; */
     width: 80%;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -186,21 +190,27 @@ nav{
 }
 #text1DivSection4, #text2DivSection4, #text3DivSection4{
     background-color: transparent;
-    width: 60%;
-    margin: 40px 50px;
-    visibility: hidden;
+    /* width: 60%; */
+    margin: 0px 50px 20px;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50%;
 }
 #text1DivSection4 img, #text2DivSection4 img, #text3DivSection4 img{
     width: 80px;
     height: 80px;
-    margin-left: 130%;
+    /* margin-left:x` 130%; */
 }
-.hidden{
-    display: none;
+#text1DivSection4 p, #text2DivSection4 p, #text3DivSection4 p{
+    display: flex;
+    gap: 230px;
+    /* flex-direction: row; */
+    background-color: #AAEBFF;
+    justify-content: space-around;
 }
-.display{
-    display: block;
-}
+
 
 #btnHidden1, #btnHidden2, #btnHidden3{
     /* width: 90px; */
@@ -240,7 +250,7 @@ img{
     font-weight: 800;
 }
 
-.div_section5{
+.div1_section5, .div2_section5, .div3_section5{
     background-color: #FFD550;
     /* height: 250px; */
     border-radius: 20px;
@@ -437,9 +447,10 @@ form{
 
 /* Footer */
 footer{
+    margin: 0;
     background-color: black;
     color: #fff;
-    width: 100%;
+    /* width: 100%; */
     /* height: 200px; */
     display: flex;
     flex-direction: column;
@@ -466,4 +477,10 @@ footer{
     height: 17px;
     width: 15px;
     margin-top: 70px;
+}
+
+@media (max-width: 600px){
+    footer{
+        width: 100%;
+ }
 }

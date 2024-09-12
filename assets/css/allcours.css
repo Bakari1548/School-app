@@ -52,7 +52,7 @@ aside{
 /* Section */
 .container{
     width: 80%;
-    margin: 50px auto;
+    margin: 50px 30px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -63,7 +63,9 @@ aside{
     margin: 0 auto;
     font-size: 50px;
 }
-.cours_link{
+#htmlLink,#cssLink,#jsLink,#phpLink,
+#pythonLink,#javaLink,#angularLink,
+#laravelLink,#reactjsLink{
     display: block;
     text-decoration: none;
     color: black;
@@ -150,4 +152,23 @@ aside{
 }
 .hidden{
     visibility: hidden;
+}
+
+@media (max-width: 700px){
+    
+    aside{
+        display: none;
+    }
+    #section1{
+        margin-right: 50px;
+        display: flex;
+        gap: 8px;
+    }
+    #section2{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
 }
